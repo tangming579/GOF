@@ -11,5 +11,3 @@
 8. 抽象工厂模式-（Abstract Factory）
 9. 职责链模式-（Chain of Responsibility）
 10. 桥接模式-（Bridge）
-
-**单例模式**
