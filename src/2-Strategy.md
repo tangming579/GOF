@@ -62,27 +62,59 @@ static void Main(string[] args)
 
 Java：
 
-```
+```java
 public interface State{
     public void doAction(Context context);
 }
 public class StartState implements State{
     public void doAction(Context context){
         System.out.println("Player is in Start state");
-        context.setState(this);
+        context.setState(new PlayingState());
     }
     public String toString(){
         return "Start State";
     }
 }
+public class PlayingState implements State{
+    public void doAction(Context context){
+        System.out.println("Player is in Playing state");
+        context.setState(new StopState());
+    }
+    public String toString(){
+        return "Playing State";
+    }
+}
 public class StopState implements State{
     public void doAction(Context context){
         System.out.println("Player is in Stop state");
-        context.setState(this);
+        context.setState(new StartState());
     }
     public String toString(){
         return "Stop State";
     }
+}
+public class Context{
+    private State state;
+    public Context(){
+        state = null;
+    }
+    public void setState(State state){
+        this.state = state;
+    }
+    public State getState(){
+        return state;
+    }
+    public doAction(){
+        if(state = null)
+            state = new StartState();
+        state.doAction();
+    }
+}
+public static void main(String[] args){
+    Context context = new Context();    
+    context.doAction();
+    context.doAction();
+    context.doAction();   
 }
 ```
 
