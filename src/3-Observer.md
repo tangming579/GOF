@@ -7,7 +7,7 @@
 **UML**
 
 <div>
-    <image src="../img/observer.jpg"></image>
+    <image src="../img/Observer.jpg"></image>
 </div>
 
 C#：
