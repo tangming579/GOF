@@ -1,6 +1,8 @@
 # GOF
 常用设计模式总结，通过Java与C#实现
 
+通过此项目熟悉常用设计模式的实现及应用，熟悉Visio工具绘制UML
+
 1. 单例模式-（Singleton）
 2. 状态模式-（State）
 3. 策略模式-（Strategy）
