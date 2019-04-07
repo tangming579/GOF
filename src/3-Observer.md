@@ -13,6 +13,40 @@
 C#：
 
 ```c#
-
+abstract class Subject
+{
+    private IList<Observer> observers = new IList<Observer>();
+    //增加观察者
+    public void Add(Observer observer)
+    {
+        observers.Add(observer);
+    }
+    //移除观察者
+    public void Remove(Observer observer)
+    {
+        observers.Remove(observer);
+    }
+    //通知
+    public void Notify()
+    {
+        foreach(var observer in observers)
+        {
+            observer.update();
+        }
+    }
+}
+abstract class Observer
+{
+    public abstract void Update();
+}
 ```
 
+**观察者模式的不足**
+
+“抽象通知者”依赖“抽象抽象观察者”，解耦度不高。
+
+可以使用C#中的委托机制降低耦合度，可降低耦合度，使其完全解耦
+
+**发布-订阅模式**
+
+发布-订阅模式是对观察者模式的进一步解耦，消息队列以及C#中的事件、委托，都是发布订阅模式
