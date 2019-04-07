@@ -3,10 +3,10 @@
 
 通过此项目熟悉常用设计模式的实现及应用，熟悉Visio工具绘制UML
 
-1. 单例模式-（Singleton）
-2. 状态模式-（State）
-3. 策略模式-（Strategy）
-4. 观察者模式-（Observer）
+1. [单例模式-（Singleton）](https://github.com/tangming579/GOF/tree/master/src/1-Singleton.md)
+2. [状态模式-（State））](https://github.com/tangming579/GOF/tree/master/src/1-Singleton.md)
+3. [策略模式-（Strategy））](https://github.com/tangming579/GOF/tree/master/src/1-Singleton.md)
+4. [观察者模式-（Observer））](https://github.com/tangming579/GOF/tree/master/src/3-Observer.md)
 5. 装饰器模式-（Decorator）
 6. 适配器模式-（Adapter）
 7. 模板方法模式-（Template）
