@@ -1,7 +1,7 @@
 # GOF
 常用设计模式总结，通过Java与C#实现
 
-通过此项目熟悉常用设计模式的实现及应用，熟悉Visio工具绘制UML
+通过此项目熟悉常用设计模式的实现及应用，~~熟悉Visio工具绘制UM~~L（感觉Visio画UML的功能不如Enterprise Architect强大，改为用EA绘制）
 
 1. [单例模式-（Singleton）](https://github.com/tangming579/GOF/tree/master/src/1-Singleton.md)
 2. [状态模式-（State））](https://github.com/tangming579/GOF/tree/master/src/2-State.md)
