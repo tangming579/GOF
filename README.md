@@ -16,4 +16,3 @@
 11. 职责链模式-（Chain of Responsibility）
 12. 桥接模式-（Bridge）
 13. 外观模式-（Facade）
-
