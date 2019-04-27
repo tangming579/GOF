@@ -1,4 +1,5 @@
-# GOF
+# design patterns
+
 常用设计模式总结，通过Java与C#实现
 
 通过此项目熟悉常用设计模式的实现及应用，熟悉Visio、EA工具绘制UML
@@ -9,7 +10,7 @@
 4. [观察者模式-（Observer）](https://github.com/tangming579/GOF/tree/master/src/4-Observer.md)
 5. [装饰器模式-（Decorator）](https://github.com/tangming579/GOF/tree/master/src/5-Decorator.md)
 6. [代理模式-（Proxy）](https://github.com/tangming579/GOF/tree/master/src/6-Proxy.md)
-7. 适配器模式-（Adapter）
+7. [适配器模式-（Adapter）](https://github.com/tangming579/GOF/tree/master/src/7-Adapter.md)
 8. 模板方法模式-（Template）
 9. 工厂模式-（Factory）
 10. 抽象工厂模式-（Abstract Factory）
