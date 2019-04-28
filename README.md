@@ -11,7 +11,7 @@
 5. [装饰器模式-（Decorator）](https://github.com/tangming579/GOF/tree/master/src/5-Decorator.md)
 6. [代理模式-（Proxy）](https://github.com/tangming579/GOF/tree/master/src/6-Proxy.md)
 7. [适配器模式-（Adapter）](https://github.com/tangming579/GOF/tree/master/src/7-Adapter.md)
-8. 模板方法模式-（Template）
+8. [模板方法模式-（Template）](https://github.com/tangming579/GOF/tree/master/src/8-Template.md)
 9. 工厂模式-（Factory）
 10. 抽象工厂模式-（Abstract Factory）
 11. 职责链模式-（Chain of Responsibility）
