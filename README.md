@@ -12,7 +12,7 @@
 6. [代理模式-（Proxy）](https://github.com/tangming579/GOF/tree/master/src/6-Proxy.md)
 7. [适配器模式-（Adapter）](https://github.com/tangming579/GOF/tree/master/src/7-Adapter.md)
 8. [模板方法模式-（Template）](https://github.com/tangming579/GOF/tree/master/src/8-Template.md)
-9. 工厂模式-（Factory）
+9. [工厂模式-（Factory）](https://github.com/tangming579/design-patterns/blob/master/src/9-Factory.md)
 10. 抽象工厂模式-（Abstract Factory）
 11. 职责链模式-（Chain of Responsibility）
 12. 桥接模式-（Bridge）
